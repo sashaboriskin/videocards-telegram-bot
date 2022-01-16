@@ -5,7 +5,6 @@ import markup as nav
 import Spisok as vav
 from pycoingecko import CoinGeckoAPI
 import openpyxl
-TOKEN = '5087831745:AAEtTE75jnFwzDudJEkasKNWMBs_T795Ncs'
 bot = Bot(token=TOKEN)
 dp = Dispatcher(bot)
 cg = CoinGeckoAPI()
