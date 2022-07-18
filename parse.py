@@ -5,7 +5,7 @@ import time
 import pandas as pd
 
 def txt_to_csv(file):
-  modeling_txt = open(file, 'r', encoding='windows-1251')
+  modeling_txt = open(file, 'r', encoding='UTF-8')
   modeling_txt = modeling_txt.readlines()
   name = str(file[:-3]) + 'csv'
   cards = []
